@@ -108,12 +108,13 @@ label start:
         $mom_flag = False
         show raidd fearagape
         e "beats me lmfao"
-		
-		"You attempt to force out a laugh."
+        
+        "You attempt to force out a laugh."
 
         "iCarly was a sitcom, right? This shit was supposed to make someone laugh..."
 
         show raidd fear
+        
 
         "Your stilted laughter only throws you further into reality"
 
@@ -122,7 +123,7 @@ label start:
         show raidd alwayshasbeen.
 
         "The idle buzz of the room around you catches your attention."
-		
+        
         menu:
             "Take the generous offer of that welcome distraction.":
                 show raidd fearagape
@@ -365,22 +366,22 @@ label start:
         
     label add_buzzington:
         "You feel something {i}observing{/i} you."
-		
-		"Thousands of eyes across your back.. all staring at a single pinpoint..."
-		
+        
+        "Thousands of eyes across your back.. all staring at a single pinpoint..."
+        
         stop music
-		
-		# add an ambient humming sound here?? like a humm in a room w a mix of like fly noises?? i can google stock effects later ig
-		
-		"The room gets louder."
-		
-		"There's so much to observe.. So much to see..."
-		
-		"You can't hear yourself think."
-		
-		"God.. it's almost as if.."
-		
-		a "This isn't your story anymore."
+        
+        # add an ambient humming sound here?? like a humm in a room w a mix of like fly noises?? i can google stock effects later ig
+        
+        "The room gets louder."
+        
+        "There's so much to observe.. So much to see..."
+        
+        "You can't hear yourself think."
+        
+        "God.. it's almost as if.."
+        
+        a "This isn't your story anymore."
 
         stop sound
     
